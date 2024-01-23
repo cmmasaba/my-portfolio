@@ -129,4 +129,14 @@ img.socialIcon {
   width: 30px;
 }
 
-/* add a slide in animation to the page */
+/* add a slide in animation */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
