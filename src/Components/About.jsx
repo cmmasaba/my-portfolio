@@ -19,7 +19,7 @@ import React from "react";
  */
 import image from "../images/cubes.jpg";
 
-const imageAltText = "different colors cubes background";
+const imageAltText = "Different colors cubes background";
 
 /**
  * Sort description that expands on your title on the Home component.
