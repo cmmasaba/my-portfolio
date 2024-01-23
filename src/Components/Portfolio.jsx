@@ -18,8 +18,10 @@ import React from "react";
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
+ * laptop-desk-window.jpg
+ * design-desk.jpeg
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/laptop-desk-window.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +33,34 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Crypto Trading Bot",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Collaboration to create an automated crypto trading bot using Python and the Kraken, BTCm, Independent Reserve and Binance APIs. The bot is able to trade on multiple exchanges and has a web interface for monitoring and control. The bot is currently in production and is being used to trade real and huge sums of money. Feedback from the client has been positive and the bot is performing well.",
+    url: "",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Django for Beiginners",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "I upskilled myself on the building web applications using Python and Django framework by following the guide by William S Vincent. I developed four or five web apps that illustrated how to use Django for tasks like user authentication and authorization, email setup, password setting and recovery, and deploying to Heroku.",
+    url: "https://github.com/cmmasaba/Django",
   },
   {
-    title: "My Resume Site",
+    title: "Newspaper App",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "I used Python and Django to create a lightweight web application for posting and reading news articles. The app is able to handle user authentication and authorization, and has a web interface for posting and reading articles.",
+    url: "https://github.com/cmmasaba/newspaper_app",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Prototype: AirBNB clone",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "I did this project as part of my studies in the ALX bootcamp. The goal was to build a clone of the AirBNB website.",
+    url: "https://github.com/cmmasaba/AirBnB_clone",
+  },
+  {
+    title: "Protoype: AppSheet app to track expenses",
+    description:
+      "I created an AppSheet app to track expenses. The app is able to track expenses and income and generate reports. The app is still in prototype stage as I work on enabling more features.",
+    url: "https://www.appsheet.com/start/ad90d854-0f61-492a-b7f7-37b1320e633d",
   },
 ];
 
