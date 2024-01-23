@@ -23,7 +23,7 @@ import React from "react";
  */
 import image from "../images/laptop-desk-window.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Desktop with books, monitor and laptop";
 
 /**
  * Project list
