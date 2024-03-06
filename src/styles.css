@@ -130,13 +130,11 @@ img.socialIcon {
 }
 
 /* add a slide in animation */
-@keyframes slideIn {
+@keyframes slideInLeft {
   0% {
-    opacity: 0;
     transform: translateX(-100%);
   }
   100% {
-    opacity: 1;
     transform: translateX(0);
   }
 }
