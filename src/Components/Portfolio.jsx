@@ -62,6 +62,11 @@ const projectList = [
       "I created an AppSheet app to track expenses. The app is able to track expenses and income and generate reports. The app is still in prototype stage as I work on enabling more features.",
     url: "https://www.appsheet.com/start/ad90d854-0f61-492a-b7f7-37b1320e633d",
   },
+  {
+    title: "Python Django Rest API service",
+    description: "I built a simple API service using Python Django REST Framework. It has a simple customers and orders database, the database uses a PostgreSQL server. The REST API is used to do the basic CRUD operations on the two databases. For authentication and authorization I used OpenID Connect. Orders are associated with customers, therefore when an order is placed, an SMS is sent to the customer alerting them. For the SMS service I used the Africa's Talking SMS gateway.",
+    url: "https://github.com/cmmasaba/studious-couscous"
+  }
 ];
 
 const Portfolio = () => {
