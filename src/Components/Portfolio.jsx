@@ -64,9 +64,10 @@ const projectList = [
   },
   {
     title: "Python Django Rest API service",
-    description: "I built a simple API service using Python Django REST Framework. It has a simple customers and orders database, the database uses a PostgreSQL server. The REST API is used to do the basic CRUD operations on the two databases. For authentication and authorization I used OpenID Connect. Orders are associated with customers, therefore when an order is placed, an SMS is sent to the customer alerting them. For the SMS service I used the Africa's Talking SMS gateway.",
-    url: "https://github.com/cmmasaba/studious-couscous"
-  }
+    description:
+      "I built a simple API service using Python Django REST Framework. It has a simple customers and orders database, the database uses a PostgreSQL server. The REST API is used to do the basic CRUD operations on the two databases. For authentication and authorization I used OpenID Connect. Orders are associated with customers, therefore when an order is placed, an SMS is sent to the customer alerting them. For the SMS service I used the Africa's Talking SMS gateway.",
+    url: "https://github.com/cmmasaba/studious-couscous",
+  },
 ];
 
 const Portfolio = () => {
@@ -79,6 +80,7 @@ const Portfolio = () => {
             src={image}
             style={{
               height: "90%",
+              marginLeft: "15px",
               width: "100%",
               objectFit: "cover",
               animation: "1s ease-out 0s 1 slideIn",
