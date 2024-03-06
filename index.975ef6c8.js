@@ -27088,7 +27088,7 @@ var _stylesCss = require("./styles.css");
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "Collins Mmasaba",
-    title: "Software Engineer",
+    title: "Software Developer",
     email: "mmasabacollins9@gmail.com",
     gitHub: "cmmasaba",
     instagram: "",
@@ -27172,7 +27172,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -27183,23 +27183,26 @@ var _cubesJpgDefault = parcelHelpers.interopDefault(_cubesJpg);
 const imageAltText = "Different colors cubes background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a Telecommunications Engineering student studying at Jomo Kenyatta University of Agriculture and Technology. I am passionate about technology and this drove me start learning programming as a hobby. I developed deep interest in software design and development and I have been learning and practicing ever since.";
+ */ const description = "I'm a Telecommunications Engineering student at Jomo Kenyatta University of Agriculture and Technology. My passion for technology and computing led me to start learning programming as a hobby. I developed deep interest in software design and development and I have been learning and practicing ever since. Currently I am a software developer at Reduzer Technologies";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
     "Python web frameworks i.e. Django",
+    "REST API using Python DRF",
+    "OpenID Connect authentication and authorization",
+    "Python ORM using SQL ALchemy and PostgreSQL",
     "Web design and development",
-    "Tasks automation using Python",
-    "No Code development using AppSheet",
+    "Automation using Python",
+    "No Code development using Google AppSheet",
     "Data structures and algorithms",
-    "Cloud computing", 
+    "Cloud computing and SaaS", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "I am passionate about solving problems in new creative ways to drive innovation and make a positive impact on the world around me. I like staying up to date on the latest trends in technology and I am always looking for opportunities to learn and grow. I have two years experience developing software in production, I have gained a huge amount of experience in this time which I am eager to apply as I continue my career..";
+ */ const detailOrQuote = "I am passionate about solving problems in new creative ways to drive innovation and make a positive impact on the world around me. I like staying up to date on the latest trends in technology and I am always looking for opportunities to learn and grow. I have two years experience developing software in production, I have gained a huge amount of experience in this time which I am eager to apply as I continue my career.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27211,7 +27214,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 57,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27227,7 +27230,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27235,12 +27238,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27255,17 +27258,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 77,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 67,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27275,19 +27278,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 81,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 55,
+                lineNumber: 58,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 53,
+        lineNumber: 56,
         columnNumber: 5
     }, undefined);
 };
@@ -28637,7 +28640,7 @@ const Home = ({ name , title  })=>{
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28652,20 +28655,20 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 32,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28683,18 +28686,18 @@ const Home = ({ name , title  })=>{
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 35,
+                lineNumber: 36,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 5
     }, undefined);
 };
