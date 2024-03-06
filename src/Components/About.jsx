@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -25,7 +25,7 @@ const imageAltText = "Different colors cubes background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Telecommunications Engineering student studying at Jomo Kenyatta University of Agriculture and Technology. I am passionate about technology and this drove me start learning programming as a hobby. I developed deep interest in software design and development and I have been learning and practicing ever since.";
+  "I'm a Telecommunications Engineering student at Jomo Kenyatta University of Agriculture and Technology. My passion for technology and computing led me to start learning programming as a hobby. I developed deep interest in software design and development and I have been learning and practicing ever since. Currently I am a software developer at Reduzer Technologies";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -33,11 +33,14 @@ const description =
  */
 const skillsList = [
   "Python web frameworks i.e. Django",
+  "REST API using Python DRF",
+  "OpenID Connect authentication and authorization",
+  "Python ORM using SQL ALchemy and PostgreSQL",
   "Web design and development",
-  "Tasks automation using Python",
-  "No Code development using AppSheet",
+  "Automation using Python",
+  "No Code development using Google AppSheet",
   "Data structures and algorithms",
-  "Cloud computing",
+  "Cloud computing and SaaS",
 ];
 
 /**
@@ -46,7 +49,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation and make a positive impact on the world around me. I like staying up to date on the latest trends in technology and I am always looking for opportunities to learn and grow. I have two years experience developing software in production, I have gained a huge amount of experience in this time which I am eager to apply as I continue my career..";
+  "I am passionate about solving problems in new creative ways to drive innovation and make a positive impact on the world around me. I like staying up to date on the latest trends in technology and I am always looking for opportunities to learn and grow. I have two years experience developing software in production, I have gained a huge amount of experience in this time which I am eager to apply as I continue my career.";
 
 const About = () => {
   return (
