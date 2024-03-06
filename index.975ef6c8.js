@@ -28785,7 +28785,12 @@ const imageAltText = "Desktop with books, monitor and laptop";
         title: "Protoype: AppSheet app to track expenses",
         description: "I created an AppSheet app to track expenses. The app is able to track expenses and income and generate reports. The app is still in prototype stage as I work on enabling more features.",
         url: "https://www.appsheet.com/start/ad90d854-0f61-492a-b7f7-37b1320e633d"
-    }, 
+    },
+    {
+        title: "Python Django Rest API service",
+        description: "I built a simple API service using Python Django REST Framework. It has a simple customers and orders database, the database uses a PostgreSQL server. The REST API is used to do the basic CRUD operations on the two databases. For authentication and authorization I used OpenID Connect. Orders are associated with customers, therefore when an order is placed, an SMS is sent to the customer alerting them. For the SMS service I used the Africa's Talking SMS gateway.",
+        url: "https://github.com/cmmasaba/studious-couscous"
+    }
 ];
 const Portfolio = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28799,7 +28804,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 70,
+                lineNumber: 75,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28819,17 +28824,18 @@ const Portfolio = ()=>{
                             style: {
                                 height: "90%",
                                 width: "100%",
-                                objectFit: "cover"
+                                objectFit: "cover",
+                                animation: "1s ease-out 0s 1 slideIn"
                             },
                             alt: imageAltText
                         }, void 0, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 73,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 72,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28848,12 +28854,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 83,
+                                            lineNumber: 93,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 82,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28861,30 +28867,30 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 85,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 81,
+                                lineNumber: 91,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 79,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 71,
+                lineNumber: 76,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 69,
+        lineNumber: 74,
         columnNumber: 5
     }, undefined);
 };
